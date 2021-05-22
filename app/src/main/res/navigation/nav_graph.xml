@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.lasson_4.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment2"
+            app:destination="@id/schetchikFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/schetchikFragment"
+        android:name="com.example.lasson_4.data.SchetchickFragment"
+        android:label="Schetchik"
+        tools:layout="@layout/fragment_schetchick" />
+</navigation>
