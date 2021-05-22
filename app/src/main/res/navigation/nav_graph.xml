@@ -10,7 +10,7 @@
         android:label="Main"
         tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_blankFragment_to_blankFragment2"
+            android:id="@+id/action_mainFragment_to_counterFragment"
             app:destination="@id/schetchikFragment" />
     </fragment>
     <fragment
