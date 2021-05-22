@@ -21,21 +21,21 @@ class Schetchick : AppCompatActivity() {
         var basNormCar:Float = 8.6f
         var rozhodDayCar: Float?=null
 
-        var honda = Car ()
+//        var honda = Car ()
 
         bindingClass.btSchet.setOnClickListener( ) {}
         fun onClickSchet (view: View ){
         val i = Intent (this, MainActivity :: class.java)
 
         }
-        var userStyProbeg
+//        var userStyProbeg
 
 
 
         fun schchetchikDay () {
-            userStyProbeg = honda.probegDayCityt
-            honda.probegDayStart = startProbeg
-            honda.probegDayFinish = honda.probegDayStart+ honda.probegDayCityt
+//            userStyProbeg = honda.probegDayCityt
+//            honda.probegDayStart = startProbeg
+//            honda.probegDayFinish = honda.probegDayStart+ honda.probegDayCityt
 
         }
 
@@ -47,8 +47,8 @@ class Schetchick : AppCompatActivity() {
 
     }
 
-    private fun Car(): Car {
-    }
+//    private fun Car(): Car {
+//    }
 
 
 }

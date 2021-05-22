@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         logD("Valera")
         val tank1 = Tank(12f)
         val tank2 = Tank(35f)
-        val car: Car = Car (25,tank2)
+        val car: Car = Car (25,12, 34, tank2, 24)
          logD( "" +car.probeg )
 
     }
