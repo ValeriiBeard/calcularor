@@ -31,12 +31,20 @@ class MainFragment : Fragment() {
         logD("Valera")
         val tank1 = Tank(12f)
         val tank2 = Tank(35f)
-        val car: Car = Car(25, 12, 34, tank2, 24, 12)
-        logD("" + car.startoviyProbeg)
+        val car: Car = Car(25, 12, 34, tank2)
 
-        binding.start.setOnClickListener {
+
+        binding.btSave.setOnClickListener {
+
+            var classCar = Car(1,1,1,tank1,)
+            var userDataN = binding.btSave.text.toString().toBigDecimal()
+        }
+
+
+
+        binding.counterNavigation.setOnClickListener {
             val probegVecherom = car.probegVecherom()
-            binding.probegCarDay.setText("Startoviy: ${car.startoviyProbeg}; Za den: ${car.probegZaDen}; Vecherom: $probegVecherom")
+
         }
 
         binding.counterNavigation.setOnClickListener {

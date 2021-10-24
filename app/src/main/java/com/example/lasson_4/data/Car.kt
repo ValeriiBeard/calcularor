@@ -1,13 +1,12 @@
 package com.example.lasson_4.data
 
-class Car(
-    var probegDayStart: Int,
-    var probegDayCityt: Int,
-    var probegDayFinish: Int,
-    var tank: Tank,
-    val startoviyProbeg: Int,
-    val probegZaDen: Int
+ open class Car(
+    open var probegDayStart: Int,
+    open var probegDayCityt: Int,
+    open var probegDayFinish: Int,
+    open var tank: Tank
 ) {
-    fun probegVecherom(): Int = startoviyProbeg + probegZaDen
+    fun probegVecherom(): Int = probegDayStart + probegDayCityt
+
 
 }
