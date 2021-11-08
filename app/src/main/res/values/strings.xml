@@ -3,4 +3,5 @@
     <string name="counter">Counter (Лічильник)</string>
     <string name="save">ЗБЕРЕГТИ</string>
     <string name="hintCounter">пробіг за день</string>
+    <string name="creatFragment">створити фрагмент</string>
 </resources>
